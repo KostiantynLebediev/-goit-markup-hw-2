@@ -31,6 +31,7 @@ body {
 
 /*Heder style*/
 .header {
+  line-height: 1.17;
 }
 .header-nav {
   background: var(--background-page);
@@ -152,7 +153,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-button);
 }
-.hero-btn:hover,
+.hero-btn:hover {
+  background-color: var(--button-focus);
+}
 .her-btn:focus {
   background-color: var(--button-focus);
 }
