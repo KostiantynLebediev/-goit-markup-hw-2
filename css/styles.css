@@ -6,10 +6,10 @@
   --navy-blu: #2e2f42;
   --ocean: #404bbf;
   --slate-text: #434455;
-  --address-hover: #404bbf;
+  --hover: #404bbf;
   --color-button: #ffffff;
   --background-button: #4d5ae5;
-  --button-focus: #404bbf;
+  --focus: #404bbf;
   --green: #31d0aa;
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
@@ -39,6 +39,7 @@ body {
 }
 .header-nav {
   background: var(--white-background-page);
+  line-height: 1.17em;
 }
 
 .header-logo {
@@ -86,7 +87,7 @@ body {
   color: var(---navy-blue-dark);
 }
 .header-intem {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -109,17 +110,22 @@ body {
   order: 0;
   flex-grow: 0;
 }
-
-.header-contacts {
+.header-link:hover {
+  background-color: var(--hover);
+}
+.header-link:focus {
+  background-color: var(--focus);
+}
+/*Adress style*/
+.address-contacts {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--slate-text);
 }
-/*Adress style*/
 .address-list {
 }
 .adress-item {
@@ -131,7 +137,13 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--address-normal);
+  color: var(--slate-text);
+}
+.adress-link:hover {
+  background-color: var(--ocean);
+}
+.adress-link:focus {
+  background-color: var(--ocean);
 }
 /*Hero*/
 .hero-image {
@@ -171,12 +183,12 @@ body {
   color: var(--color-button);
 }
 .hero-btn:hover {
-  background-color: var(--button-focus);
+  background-color: var(--hover);
 }
 .hero-btn:focus {
-  background-color: var(--button-focus);
+  background-color: var(--focus);
 }
-.
+
 /*Section style*/
 .section {
 }
