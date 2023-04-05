@@ -162,7 +162,7 @@ body {
 }
 /*Buttons*/
 .order-service-btn {
-    font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -211,7 +211,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--heading-color);
 }
@@ -238,25 +238,37 @@ body {
 }
 /*Footer style*/
 .footer {
-  background: var(--heading-color);
+  background: var(--navy-blue-dark);
 }
-.footer-logo link {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  color: var(--logo-color-web);
+  line-height: 1.17em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.17;
+  text-transform: uppercase;
+  color: var(--iris);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .footer-logo2 {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  color: var(--logo-color-light);
+  line-height: 1.17em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.17;
+  text-transform: uppercase;
+  color: var(--cloud-light);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .section-text-footer {
   font-family: "Roboto", sans-serif;
