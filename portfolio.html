@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href=" https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500"
       rel="stylesheet"
@@ -22,9 +22,9 @@
           Web <span class="header-logo2">Studio</span></a
         >
         <!--Navigation-->
-        <ul class="header-list list">
+        <ul class="list">
           <li class="header-item">
-            <a class="header-link link" href="">Studio</a>
+            <a class="header-link link" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
             <a class="header-link link" href="./portfolio.html">Portfolio</a>
@@ -35,7 +35,7 @@
         </ul>
 
         <address class="header-contacts">
-          <ul class="address-list list">
+          <ul class="list">
             <li class="address-item">
               <a href="mailto:info@devstudio.com" class="adress-link link"
                 >info@devstudio.com</a
@@ -52,16 +52,28 @@
     </header>
     <main>
       <!--Hero sction-->
-      <h1 class="hero-title">Buttons</h1>
-      <button class="hero-btn" type="button">All</button>
-      <button class="hero-btn" type="button">Web site</button>
-      <button class="hero-btn" type="button">App</button>
-      <button class="hero-btn" type="button">Design</button>
-      <button class="hero-btn" type="button">Marketing</button>
+      <h1 class="hero-title" hidden>Buttons</h1>
+      <ul class="list">
+        <li class="btn-item">
+          <button class="hero-btn" type="button">All</button>
+        </li>
+        <li class="btn-item">
+          <button class="hero-btn" type="button">Web site</button>
+        </li>
+        <li class="btn-item">
+          <button class="hero-btn" type="button">App</button>
+        </li>
+        <li class="btn-item">
+          <button class="hero-btn" type="button">Design</button>
+        </li>
+        <li class="btn-item">
+          <button class="hero-btn" type="button">Marketing</button>
+        </li>
+      </ul>
       <!--Project 1-->
       <section>
         <h1 hidden>Projects</h1>
-        <ul class="section-list list">
+        <ul class="list">
           <li class="section-item list">
             <img
               src="./images/projects/bank.jpg"
@@ -90,11 +102,10 @@
             <p class="section-text">App</p>
           </li>
         </ul>
-      </section>
-      <!--Project 2-->
 
-      <section>
-        <ul>
+        <!--Project 2-->
+
+        <ul class="list">
           <li class="section-item list">
             <img src="./images/projects/taxi.jpg" alt="taxi" width="264" />
             <h3 class="section-title">Taxi Service</h3>
@@ -115,38 +126,39 @@
             <p class="section-text">Marketing</p>
           </li>
         </ul>
-      </section>
-      <!--Section 3-->
-      <ul class="section-list list">
-        <li class="section-item list">
-          <img
-            src="./images/projects/instagram.jpg"
-            alt="instagram"
-            width="264"
-          />
-          <h3 class="section-title">Instagram Stories Concept</h3>
-          <p class="section-text">Design</p>
-        </li>
 
-        <li class="section-item list">
-          <img
-            src="./images/projects/organic-food.jpg"
-            alt="food"
-            width="264"
-          />
-          <h3 class="section-title">Organic Food</h3>
-          <p class="section-text">Web Site</p>
-        </li>
-        <li class="section-item list">
-          <img
-            src="./images/projects/fresh-coffe.jpg"
-            alt="coffee"
-            width="264"
-          />
-          <h3 class="section-title">Fresh Coffee</h3>
-          <p class="section-text">Web Site</p>
-        </li>
-      </ul>
+        <!--Section 3-->
+        <ul class="list">
+          <li class="section-item list">
+            <img
+              src="./images/projects/instagram.jpg"
+              alt="instagram"
+              width="264"
+            />
+            <h3 class="section-title">Instagram Stories Concept</h3>
+            <p class="section-text">Design</p>
+          </li>
+
+          <li class="section-item list">
+            <img
+              src="./images/projects/organic-food.jpg"
+              alt="food"
+              width="264"
+            />
+            <h3 class="section-title">Organic Food</h3>
+            <p class="section-text">Web Site</p>
+          </li>
+          <li class="section-item list">
+            <img
+              src="./images/projects/fresh-coffe.jpg"
+              alt="coffee"
+              width="264"
+            />
+            <h3 class="section-title">Fresh Coffee</h3>
+            <p class="section-text">Web Site</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!--Footer-->
     <footer class="footer">

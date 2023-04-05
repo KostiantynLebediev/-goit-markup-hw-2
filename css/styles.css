@@ -1,26 +1,31 @@
 :root {
-  --heading-color: #2e2f42;
   --text-color: #434455;
-  --logo-color-web: #4d5ae5;
-  --logo-colorr-dark: #2e2f42;
+  --iris: #4d5ae5;
+  --navy-blue-dark: #2e2f42;
   --logo-color-light: #f4f4fd;
-  --background-page: #ffffff;
-  --header-link-normal: #2e2f42;
-  --header-link-hover: #404bbf;
-  --address-normal: #434455;
+  --navy-blu: #2e2f42;
+  --ocean: #404bbf;
+  --slate-text: #434455;
   --address-hover: #404bbf;
-  --background-hero: #2e2f42;
   --color-button: #ffffff;
   --background-button: #4d5ae5;
   --button-focus: #404bbf;
+  --green: #31d0aa;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --grey: #2e2f42;
+  --cloud-light: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --white-background-page: #ffffff;
+  --dairy: #fcfcfc;
 }
 
 /*Base style*/
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: var(--text-color);
-  background: var(--background-page);
+  color: var(--slate-text);
+  background: var(--white-background-page);
 }
 .list {
   list-style: none;
@@ -31,10 +36,9 @@ body {
 
 /*Heder style*/
 .header {
-  line-height: 1.17;
 }
 .header-nav {
-  background: var(--background-page);
+  background: var(--white-background-page);
 }
 
 .header-logo {
@@ -47,9 +51,9 @@ body {
   line-height: 21px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 1.17;
   text-transform: uppercase;
-  color: var(--logo-color-web);
+  color: var(--iris);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -64,9 +68,9 @@ body {
   line-height: 21px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 1.17;
   text-transform: uppercase;
-  color: var(--logo-colorr-dark);
+  color: var(--navy-blue-dark);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -79,7 +83,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--header-link-normal);
+  color: var(---navy-blue-dark);
 }
 .header-intem {
   font-family: "Roboto";
@@ -88,7 +92,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--address-normal);
+  color: var(--navy-blue-dark);
 }
 .header-link {
   /* Studio */
@@ -100,11 +104,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--header-link-normal);
+  color: var(--navy-blue-dark);
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .header-contacts {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -112,7 +117,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 /*Adress style*/
 .address-list {
@@ -137,10 +142,22 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-page);
+}
+/*Buttons*/
+.button-list {
+  display: flex;
+  font-style: normal;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.btn-item {
+  font-style: normal;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -156,9 +173,10 @@ body {
 .hero-btn:hover {
   background-color: var(--button-focus);
 }
-.her-btn:focus {
+.hero-btn:focus {
   background-color: var(--button-focus);
 }
+.
 /*Section style*/
 .section {
 }
