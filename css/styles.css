@@ -39,7 +39,7 @@ body {
 }
 .header-nav {
   background: var(--white-background-page);
-  line-height: 1.17em;
+  line-height: 1.17;
 }
 
 .header-logo {
@@ -49,7 +49,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.17em;
   display: flex;
   align-items: center;
   letter-spacing: 1.17;
@@ -66,7 +66,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.17em;
   display: flex;
   align-items: center;
   letter-spacing: 1.17;
@@ -111,7 +111,7 @@ body {
   flex-grow: 0;
 }
 .header-link:hover {
-  background-color: var(--hover);
+  color: var(--hover);
 }
 .header-link:focus {
   background-color: var(--focus);
@@ -140,7 +140,7 @@ body {
   color: var(--slate-text);
 }
 .adress-link:hover {
-  background-color: var(--ocean);
+  color: var(--ocean);
 }
 .adress-link:focus {
   background-color: var(--ocean);
@@ -148,6 +148,7 @@ body {
 /*Hero*/
 .hero-image {
   background: var(--navy-blue-dark);
+  line-height: 1, 07;
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -160,7 +161,20 @@ body {
   color: var(--white-background-page);
 }
 /*Buttons*/
+.order-service-btn {
+    font-family: "Roboto", sans-serif
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  background: var(--background-button);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  color: var(--color-button);
+}
 .button-list {
+  font-family: "Roboto", sans-serif;
   display: flex;
   font-style: normal;
   flex-direction: row;
@@ -183,7 +197,7 @@ body {
   color: var(--color-button);
 }
 .hero-btn:hover {
-  background-color: var(--hover);
+  color: var(--hover);
 }
 .hero-btn:focus {
   background-color: var(--focus);
