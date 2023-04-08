@@ -197,8 +197,11 @@ body {
   color: var(--navy-blue-dark);
 }
 /*TEAM SECTION*/
+.team-section {
+  background-color: #f4f4fd;
+}
 .team-list {
-  background-color: var(--cloud-light);
+  background-color: var(--white-background-page);
 }
 .first-team-head {
   font-family: "Roboto", sans-serif;
