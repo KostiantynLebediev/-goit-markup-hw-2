@@ -38,15 +38,18 @@ body {
 /*LOGO*/
 .main-logo-link {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  display: flex;
   color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .head-logo-link {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -54,6 +57,39 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/*FOOTER*/
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  color: var(--iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cloud-light);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: var(--navy-blue-dark);
+}
+.footer-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logo-color-light);
+}
+
 /*MENU*/
 .menu-link:hover,
 .menu-link:focus {
@@ -191,27 +227,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-/*Footer style*/
-.footer {
-  background-color: var(--navy-blue-dark);
-}
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--iris);
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.footer-logo-item,
-.footer .text {
-  color: #f4f4fd;
-}
+
 /*PORTFOLIO PAGE*/
 .portfolio-titel {
   font-family: "Roboto", sans-serif;
