@@ -121,9 +121,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.04em;
-
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   color: var(--iris);
   cursor: pointer;
 }
@@ -133,57 +135,61 @@ body {
   background-color: #404bbf;
 }
 /*Section style*/
-/*FETURES SECTION*/
-.features-head {
+/*ABOUT SECTION*/
+.about-head {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
-.features-p {
+.about-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
-/*PRODUCT SECTION*/
-.title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+/*PRODUCT SECTIO*/
+.product-second-head {
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: var(--navy-blue-dark);
 }
 /*TEAM SECTION*/
-.team {
-  background-color: #f4f4fd;
+.team-section {
+  background-color: var(--cloud-light);
 }
-
-.team-item {
-  background-color: #ffffff;
-}
-.team-title {
+.first-team-head {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-dark);
+}
+.second-team-head {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
-.team-position {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.team-description {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 /*Footer style*/
 .footer {
@@ -207,15 +213,16 @@ body {
   color: #f4f4fd;
 }
 /*PORTFOLIO PAGE*/
-.portfolio-title {
+.portfolio-titel {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--navy-blue-dark);
 }
-.portfolio-text {
+.portfolio-description {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
