@@ -23,10 +23,6 @@
 /*Base style*/
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--slate-text);
   background-color: var(--white-background-page);
 }
@@ -39,57 +35,54 @@ body {
 }
 
 /*Heder style*/
-
-.nav {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
 /*LOGO*/
-.nav {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-.nav-logo {
+.main-logo-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--iris);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
-  text-decoration: none;
   text-transform: uppercase;
 }
-.nav-logo-item {
+.head-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
   color: var(--navy-blue-dark);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-/*DEFOLT*/
-.list.link {
+/*MENU*/
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover);
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
-.list.link:hover,
-.list.link:focus {
-  color: #404bbf;
-}
-
 /*Adress style*/
 .address {
   font-style: normal;
 }
-.address-item.link {
+.contacts {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
 /*Hero*/
 .hero {
   background: var(--navy-blue-dark);
@@ -106,13 +99,15 @@ body {
 }
 /*Buttons*/
 .order-service-btn {
-  background-color: var(--iris);
   font-family: "Roboto", sans-serif;
+  background-color: var(--iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-button);
   cursor: pointer;
 }
 
