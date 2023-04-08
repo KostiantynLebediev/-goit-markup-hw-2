@@ -57,6 +57,9 @@ body {
   color: var(--navy-blue-dark);
 }
 /*FOOTER*/
+.footer {
+  background-color: var(--navy-blue-dark);
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -65,7 +68,9 @@ body {
   line-height: 1.17;
   display: flex;
   color: var(--iris);
+  align-items: center;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 .footer-logo-item {
@@ -78,9 +83,6 @@ body {
   text-transform: uppercase;
 }
 
-.footer {
-  background-color: var(--navy-blue-dark);
-}
 .footer-description {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
