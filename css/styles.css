@@ -135,20 +135,20 @@ body {
   color: var(--white-background-page);
 }
 /*Buttons*/
-.order-service-btn {
+/*BUTTON*/
+.btn-hero {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--color-button);
   cursor: pointer;
-  background: var(--iris);
+  color: #ffffff;
+  background: #4d5ae5;
 }
-
-.order-service-btn:hover,
-.order-service-btn:focus {
-  color: #404bbf;
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: #404bbf;
 }
 /*PORTFOLIO BTN*/
 .portfolio-btn {
@@ -197,7 +197,7 @@ body {
   color: var(--navy-blue-dark);
 }
 /*TEAM SECTION*/
-.team-section {
+.team-list {
   background-color: var(--cloud-light);
 }
 .first-team-head {
